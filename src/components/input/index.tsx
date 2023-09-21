@@ -8,11 +8,11 @@ import { Flex } from "../flex";
 //Styles
 import { InputStyled } from "./styles";
 
-//Services
-import { api } from "../../services/api";
-
 //Types
 import { Cep } from "./types";
+
+//Services
+import { api } from "../../services/api";
 
 export function Input() {
   const [cep, setCep] = useState<Cep | undefined>();
